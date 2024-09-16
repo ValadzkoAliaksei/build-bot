@@ -1,5 +1,5 @@
 {
-  "name": "clevertec.marathon.bot",
+  "name": "build.bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rastamanby/clevertec.marathon.bot.git"
+    "url": "git+https://github.com/ValadzkoAliaksei/build.bot.git"
   },
-  "author": "Vanya Korobeynikov",
+  "author": "Aliaksei Valadzko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rastamanby/clevertec.marathon.bot/issues"
+    "url": "https://github.com/ValadzkoAliaksei/build.bot/issues"
   },
-  "homepage": "https://github.com/Rastamanby/clevertec.marathon.bot#readme",
+  "homepage": "https://github.com/ValadzkoAliaksei/build.bot#readme",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
@@ -28,9 +28,10 @@
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "axios": "^0.25.0",
+    "axios": "^1.7.7",
     "dotenv": "^14.2.0",
-    "telegraf": "4.15.3"
+    "googleapis": "^144.0.0",
+    "telegraf": "^4.16.3"
   },
   "browserslist": "> 0.25%, not dead"
 }
